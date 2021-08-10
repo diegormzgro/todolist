@@ -17,7 +17,7 @@ const initialList = [
   },
 ];
 
-const isPartOf = (item: Item, items: Item[]): boolean => {
+const isPartOf   = (item: Item, items: Item[]): boolean => {
   return items.some((it) => it.priority === item.priority);
 };
 
